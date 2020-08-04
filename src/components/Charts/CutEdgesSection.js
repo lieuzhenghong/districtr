@@ -27,10 +27,6 @@ export default function CutEdgesSection(state, uiState, dispatch) {
         />
       </div>
 
-      <h4>
-        List of cut edges:
-      </h4>
-
       <span id="cut-edges"> ${cutEdges} </span>
     </section>
   `;
