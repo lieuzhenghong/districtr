@@ -1,5 +1,8 @@
 #cut_edges_distrib_canvas {
-  background-image: url("assets/cut_edges_histograms/iowa.png");
+  background-image: url("../assets/cut_edges_histograms/iowa.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: 1px solid black;
 }
 
 .cut_edges_distribution {
@@ -8,4 +11,5 @@
 
 .cut_edges_distribution > img {
   max-width: 100%;
+  display: none;
 }
